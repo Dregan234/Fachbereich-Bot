@@ -1,2 +1,2 @@
 # Fachbereich-Bot
-![Pycord](https://github.com/Pycord-Development/pycord)
+![Python3](https://github.com/Pycord-Development/pycord)
