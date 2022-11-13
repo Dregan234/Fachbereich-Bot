@@ -28,5 +28,5 @@ class EmbedCog(commands.Cog):
         await ctx.send("__                                                                                                     __")
         await ctx.message.delete()
 
-def setup(client):
-    client.add_cog(EmbedCog(client))
+async def setup(client):
+    await client.add_cog(EmbedCog(client))

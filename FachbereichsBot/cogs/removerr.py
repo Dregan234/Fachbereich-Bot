@@ -40,5 +40,5 @@ class RemoveRR(commands.Cog):
         await member.send(f'Alle Reaktionen in **{ctx.guild.name}** wurden entfernt!', file=discord.File('Files/Bonobo.jpg'))
 
 
-def setup(client):
-    client.add_cog(RemoveRR(client))
+async def setup(client):
+    await client.add_cog(RemoveRR(client))
